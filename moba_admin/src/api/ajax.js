@@ -13,8 +13,12 @@ export default function ajax(url, data={}, type='GET') {
         url = url + '?' + dataStr
       }
       promise = axios.get(url)
-    } else {
+    } else if(type === 'POST') {
       promise = axios.post(url, data)
+    } else if(type === 'PUT') {
+      promise = axios.put(url, data)
+    } else if(type === 'DELETE') {
+      promise = axios.delete(url, data)
     }
     promise.then(response => {
       resolve(response)

@@ -12,7 +12,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 Vue.use(ElementUI)
 
 const api = 'http://localhost:4001/admin/api/'
-Vue.prototype.$http = (url, data = {}, type = 'GET') => {ajax(api+url, data, type)}
+Vue.prototype.$http = (url, data = {}, type = 'GET') => {return ajax(api+url, data, type)}
 
 /* eslint-disable no-new */
 new Vue({

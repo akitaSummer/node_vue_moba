@@ -1,10 +1,20 @@
 <template>
   <div class="about">
     <h1>
-      新建分类
+      {{id ? '编辑' : '新建'}}分类
     </h1>
-    <el-form @submit.native.prevent="save">
-      <el-form-item label="名称" label-width="120px">
+    <el-form label-width="120px" @submit.native.prevent="save">
+      <el-form-item label="上级分类">
+        <el-select v-model="model.parent" placeholder="请选择">
+          <el-option
+            v-for="item in parents"
+            :key="item._id"
+            :label="item.name"
+            :value="item._id">
+          </el-option>
+        </el-select>
+      </el-form-item>
+      <el-form-item label="名称">
         <el-input v-model="model.name"></el-input>
       </el-form-item>
       <el-form-item>
@@ -17,21 +27,46 @@
 <script>
   export default {
     name: "CategoryEdit",
+    props: {
+      id: String
+    },
     data() {
       return {
-        model: {
-          name: ''
-        }
+        model: {},
+        parents: []
       }
     },
     methods: {
       async save() {
-        await this.$http('categories', this.model, 'POST')
+        if (this.id) {
+          await this.$http(`categories/${this.id}`, this.model, 'PUT')
+        } else {
+          await this.$http('categories', this.model, 'POST')
+        }
         this.$router.replace('/categories/list')
         this.$message({
           type: 'success',
           message: '保存成功'
         })
+      },
+      async fetch() {
+        const response = await this.$http(`categories/${this.id}`)
+        this.model = response.data
+      },
+      async fetchParents() {
+        const response = await this.$http(`categories`)
+        this.parents = response.data
+      }
+    },
+    created() {
+      this.fetchParents()
+      this.id && this.fetch()
+    },
+    watch: {
+      $route: function() {
+        if (this.id === undefined) {
+          this.model = {}
+        }
       }
     }
   }
