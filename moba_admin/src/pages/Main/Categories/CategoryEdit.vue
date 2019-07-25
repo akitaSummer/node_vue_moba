@@ -39,9 +39,9 @@
     methods: {
       async save() {
         if (this.id) {
-          await this.$http(`categories/${this.id}`, this.model, 'PUT')
+          await this.$http(`rest/categories/${this.id}`, this.model, 'PUT')
         } else {
-          await this.$http('categories', this.model, 'POST')
+          await this.$http('rest/categories', this.model, 'POST')
         }
         this.$router.replace('/categories/list')
         this.$message({
@@ -50,11 +50,11 @@
         })
       },
       async fetch() {
-        const response = await this.$http(`categories/${this.id}`)
+        const response = await this.$http(`rest/categories/${this.id}`)
         this.model = response.data
       },
       async fetchParents() {
-        const response = await this.$http(`categories`)
+        const response = await this.$http(`rest/categories`)
         this.parents = response.data
       }
     },

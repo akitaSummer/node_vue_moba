@@ -4,6 +4,10 @@ import Router from 'vue-router'
 import Main from '../pages/Main/Main'
 import CategoryEdit from '../pages/Main/Categories/CategoryEdit'
 import CategoryList from '../pages/Main/Categories/CategoryList'
+import ItemEdit from'../pages/Main/Items/ItemEdit'
+import ItemList from'../pages/Main/Items/ItemList'
+import HeroEdit from "../pages/Main/Heros/HeroEdit"
+import HeroList from "../pages/Main/Heros/HeroList"
 
 Vue.use(Router)
 
@@ -14,6 +18,7 @@ export default new Router({
       name: 'Main',
       component: Main,
       children: [
+        // 分类
         {
           path: '/categories/create',
           component: CategoryEdit
@@ -26,7 +31,35 @@ export default new Router({
           path: '/categories/edit/:id',
           component: CategoryEdit,
           props: true
-        }
+        },
+        // 物品
+        {
+          path: '/items/create',
+          component: ItemEdit
+        },
+        {
+          path: '/items/list',
+          component: ItemList
+        },
+        {
+          path: '/items/edit/:id',
+          component: ItemEdit,
+          props: true
+        },
+        // 英雄
+        {
+          path: '/heros/create',
+          component: HeroEdit
+        },
+        {
+          path: '/heros/list',
+          component: HeroList
+        },
+        {
+          path: '/heros/edit/:id',
+          component: HeroEdit,
+          props: true
+        },
       ]
     },
     {
