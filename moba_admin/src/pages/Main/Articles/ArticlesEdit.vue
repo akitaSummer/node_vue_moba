@@ -1,21 +1,24 @@
 <template>
   <div class="about">
     <h1>
-      {{id ? '编辑' : '新建'}}分类
+      {{id ? '编辑' : '新建'}}文章
     </h1>
     <el-form label-width="120px" @submit.native.prevent="save">
-      <el-form-item label="上级分类">
-        <el-select v-model="model.parent" placeholder="请选择">
+      <el-form-item label="所属分类">
+        <el-select v-model="model.categories" placeholder="请选择" multiple>
           <el-option
-            v-for="item in parents"
+            v-for="item in categories"
             :key="item._id"
             :label="item.name"
             :value="item._id">
           </el-option>
         </el-select>
       </el-form-item>
-      <el-form-item label="名称">
-        <el-input v-model="model.name"></el-input>
+      <el-form-item label="标题">
+        <el-input v-model="model.title"></el-input>
+      </el-form-item>
+      <el-form-item label="详情">
+        <el-input v-model="model.body"></el-input>
       </el-form-item>
       <el-form-item>
         <el-button type="primary" native-type="submit">保存</el-button>
@@ -26,43 +29,44 @@
 
 <script>
   export default {
-    name: "CategoryEdit",
+    name: "ArticlesEdit",
     props: {
       id: String
     },
     data() {
       return {
         model: {
-          name: '',
-          parent: ''
+          title: '',
+          body: '',
+          categories: []
         },
-        parents: []
+        categories: []
       }
     },
     methods: {
       async save() {
         if (this.id) {
-          await this.$http(`rest/categories/${this.id}`, this.model, 'PUT')
+          await this.$http(`rest/articles/${this.id}`, this.model, 'PUT')
         } else {
-          await this.$http('rest/categories', this.model, 'POST')
+          await this.$http('rest/articles', this.model, 'POST')
         }
-        this.$router.replace('/categories/list')
+        this.$router.replace('/articles/list')
         this.$message({
           type: 'success',
           message: '保存成功'
         })
       },
       async fetch() {
-        const response = await this.$http(`rest/categories/${this.id}`)
+        const response = await this.$http(`rest/articles/${this.id}`)
         this.model = response.data
       },
-      async fetchParents() {
+      async fetchCategories() {
         const response = await this.$http(`rest/categories`)
-        this.parents = response.data
+        this.categories = response.data
       }
     },
     created() {
-      this.fetchParents()
+      this.fetchCategories()
       this.id && this.fetch()
     },
     watch: {

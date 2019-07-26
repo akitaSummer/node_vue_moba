@@ -30,7 +30,6 @@
       async fetch() {
         const response = await this.$http('rest/categories')
         this.items = response.data
-        console.log(this.items)
       },
       async remove(row) {
         this.$confirm(`此操作将永久删除"${row.name}", 是否继续?`, '提示', {

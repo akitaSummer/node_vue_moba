@@ -23,7 +23,7 @@
 
 <script>
   export default {
-    name: "CategoryList",
+    name: "HeroList",
     data() {
       return {
         items: []

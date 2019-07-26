@@ -8,6 +8,8 @@ import ItemEdit from'../pages/Main/Items/ItemEdit'
 import ItemList from'../pages/Main/Items/ItemList'
 import HeroEdit from "../pages/Main/Heros/HeroEdit"
 import HeroList from "../pages/Main/Heros/HeroList"
+import ArticlesEdit from '../pages/Main/Articles/ArticlesEdit'
+import ArticlesList from '../pages/Main/Articles/ArticlesList'
 
 Vue.use(Router)
 
@@ -58,6 +60,20 @@ export default new Router({
         {
           path: '/heros/edit/:id',
           component: HeroEdit,
+          props: true
+        },
+        // 文章
+        {
+          path: '/articles/create',
+          component: ArticlesEdit
+        },
+        {
+          path: '/articles/list',
+          component: ArticlesList
+        },
+        {
+          path: '/articles/edit/:id',
+          component: ArticlesEdit,
           props: true
         },
       ]
