@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Main from '../pages/Main/Main'
+import Login from '../pages/Login/Login'
 import CategoryEdit from '../pages/Main/Categories/CategoryEdit'
 import CategoryList from '../pages/Main/Categories/CategoryList'
 import ItemEdit from'../pages/Main/Items/ItemEdit'
@@ -10,6 +11,10 @@ import HeroEdit from "../pages/Main/Heros/HeroEdit"
 import HeroList from "../pages/Main/Heros/HeroList"
 import ArticlesEdit from '../pages/Main/Articles/ArticlesEdit'
 import ArticlesList from '../pages/Main/Articles/ArticlesList'
+import ADsEdit from '../pages/Main/ADs/ADsEdit'
+import ADsList from '../pages/Main/ADs/ADsList'
+import AdminUsersEdit from '../pages/Main/AdminUsers/AdminUsersEdit'
+import AdminUsersList from '../pages/Main/AdminUsers/AdminUsersList'
 
 Vue.use(Router)
 
@@ -76,7 +81,44 @@ export default new Router({
           component: ArticlesEdit,
           props: true
         },
+        // 广告位
+        {
+          path: '/ads/create',
+          component: ADsEdit
+        },
+        {
+          path: '/ads/list',
+          component: ADsList
+        },
+        {
+          path: '/ads/edit/:id',
+          component: ADsEdit,
+          props: true
+        },
+        // 管理员
+        {
+          path: '/admin_users/create',
+          component: AdminUsersEdit
+        },
+        {
+          path: '/admin_users/list',
+          component: AdminUsersList
+        },
+        {
+          path: '/admin_users/edit/:id',
+          component: AdminUsersEdit,
+          props: true
+        },
+        {
+          path: '',
+          redirect: '/items/list'
+        }
       ]
+    },
+    {
+      path: '/login',
+      name: 'Login',
+      component: Login,
     },
     {
       path: '/',

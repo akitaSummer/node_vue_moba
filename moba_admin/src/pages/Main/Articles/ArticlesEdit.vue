@@ -18,7 +18,7 @@
         <el-input v-model="model.title"></el-input>
       </el-form-item>
       <el-form-item label="详情">
-        <el-input v-model="model.body"></el-input>
+        <VueEditor v-model="model.body" useCustomImageHandler @imageAdded="handleImageAdded"></VueEditor>
       </el-form-item>
       <el-form-item>
         <el-button type="primary" native-type="submit">保存</el-button>
@@ -28,10 +28,14 @@
 </template>
 
 <script>
+  import {VueEditor} from 'vue2-editor'
   export default {
     name: "ArticlesEdit",
     props: {
       id: String
+    },
+    components: {
+      VueEditor
     },
     data() {
       return {
@@ -63,6 +67,13 @@
       async fetchCategories() {
         const response = await this.$http(`rest/categories`)
         this.categories = response.data
+      },
+      async handleImageAdded(file, Editor, cursorLocation, resetUploader) {
+        const formData = new FormData()
+        formData.append('file', file)
+        const response = await this.$http('upload', formData, 'POST')
+        Editor.insertEmbed(cursorLocation, 'image', response.data.url)
+        resetUploader()
       }
     },
     created() {

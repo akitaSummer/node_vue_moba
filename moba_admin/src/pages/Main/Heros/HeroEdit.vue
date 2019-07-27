@@ -76,10 +76,8 @@
                   action="http://localhost:4001/admin/api/upload"
                   :show-file-list="true"
                   :on-success="response => $set(item, 'icon', response.url)">
-                  <div class="el-upload">
-                    <img v-if="item.icon" :src="item.icon" class="avatar">
-                    <i v-else class="el-icon-plus avatar-uploader-icon"></i>
-                  </div>
+                  <img v-if="item.icon" :src="item.icon" class="avatar">
+                  <i v-else class="el-icon-plus avatar-uploader-icon"></i>
                 </el-upload>
               </el-form-item>
               <el-form-item label="冷却/消耗">
@@ -203,30 +201,5 @@
 </script>
 
 <style scoped>
-  .avatar-uploader .el-upload {
-    border: 1px dashed #d9d9d9;
-    border-radius: 6px;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    padding: 5px;
-  }
-  .avatar-uploader .el-upload:hover {
-    border-color: #409EFF;
-  }
-  .avatar-uploader-icon {
-    font-size: 28px;
-    color: #8c939d;
-    width: 5rem;
-    height: 5rem;
-    line-height: 5rem;
-    text-align: center;
-    border-radius: 6px;
-  }
-  .avatar {
-    width: 5rem;
-    height: 5rem;
-    display: block;
-  }
 
 </style>

@@ -6,6 +6,7 @@ module.exports = (app) => {
   // 通用CRUD
   app.use('/admin/api/rest/:resource', (request, response, next) => {
     const modelName = require('inflection').classify(request.params.resource)
+    console.log(modelName)
     request.Model = require(`../../db/models/${modelName}`)
     next()
   },restRouter);
