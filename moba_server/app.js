@@ -24,18 +24,25 @@ app.use(express.static(path.join(__dirname, 'public')));
 // 启动数据库
 require('./db/db')(app)
 
+// 静态文件
+app.use('/public', express.static(__dirname + '/public'))
+
+// 设置变量
+app.set('secret', 'nodevuemoba')
+
 // 导入路由
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 require('./routes/admin/index')(app)
 
-// 静态文件
-app.use('/public', express.static(__dirname + '/public'))
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
 });
+
+
 
 // error handler
 app.use(function(err, req, res, next) {

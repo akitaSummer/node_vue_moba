@@ -26,8 +26,15 @@
       }
     },
     methods: {
-      login() {
-        console.log(this.model)
+      async login() {
+        const response= await this.$http('login', this.model, 'POST')
+        // sessionStorage.token = response.data.token
+        localStorage.token = response.data.token
+        this.$router.push('/')
+        this.$message({
+          type: 'success',
+          message: '登录成功'
+        })
       }
     }
   }

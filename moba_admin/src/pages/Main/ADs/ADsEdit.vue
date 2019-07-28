@@ -19,7 +19,8 @@
             <el-upload
               method="post"
               class="avatar-uploader"
-              action="http://localhost:4001/admin/api/upload"
+              :action="uploadUrl"
+              :headers="getAuthHeaders()"
               :show-file-list="true"
               :on-success="response => $set(item, 'image', response.url)">
               <img v-if="item.image" :src="item.image" class="avatar">

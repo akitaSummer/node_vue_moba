@@ -11,7 +11,8 @@
         <el-upload
           method="post"
           class="avatar-uploader"
-          action="http://localhost:4001/admin/api/upload"
+          :action="uploadUrl"
+          :headers="getAuthHeaders()"
           :show-file-list="true"
           :on-success="afterUpload">
           <img v-if="model.icon" :src="model.icon" class="avatar">
