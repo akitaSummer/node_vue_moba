@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e55a032-4ce4-42c3-93f3-205eaff2de0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/.babelrc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/.editorconfig" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/.eslintignore" afterDir="false" />
@@ -54,13 +54,141 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/jest.conf.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/css/initset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_client/static/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/0e30b2057019e037f27f5783c8e46c38.1564198165.acc5c293ed9166fccb3f41982cd0f979.184x124_37128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/11a63a1b9d0d51cf684380ab5c15c983.1564191593.332dd3c012a766b003858fd329abc3c8.184x124_35624.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/126.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/130.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/132.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/137.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/139.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/150.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/152.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/153.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/1538459038600.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/156.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/157.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/162.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/163.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/166.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/167.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/168.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/169.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/170.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/171.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/173.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/174.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/176.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/177.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/178.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/179.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/180.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/182.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/183.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/184.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/186.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/187.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/189.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/190.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/191.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/193.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/195.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/197.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/198.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/199.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/1e8c9019a900d4e4add55eed0faa45cc.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/3206134f02318928c50835db0b806669.1564124210.2476dd3ea2e05f9890c51462cf6821db.184x124_38263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/501.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/502.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/503.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/504.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/505.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/506.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/507.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/508.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/509.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/511.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/513.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/515.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/522.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/596b5904ee09579ed7fb808369647a43.1564125767.233cac2c123cbbe0b2b5264914263836.960x600_384351.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/5b53390c0564464bf157cd687debe39d.1563868262.40da90b800e23f3b898b512e59a9b8c7.184x124_59783.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/60837bd1f8a6bd32722c54f9b4dd7dec.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/65ed95d4fefc59d7fbf4bbcffca1dfcd.1564035967.95bf615209846c9c5d53a3bf9c6eb878.184x124_44368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/6da9003b743b65f4c0ccd295cc484e57.1564384585.0feacf442fde929af980a2c96c529f38.230x140_17118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/6da9003b743b65f4c0ccd295cc484e57.1564470375.2112759aba5cd18f26980003ea82e448.230x140_27667.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/734159b3d24f1e5f8785409e0741fbe7.1561084885.9c5129410f1e3dba698c40764a3a39fa.184x124_42148.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/77e4129c72a25be2ca87bdf83f8f611d.1564096860.c1c788da3ce44e4fa7a0624236a16846.184x124_15463.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/9b86f489ca9ff2483da37488584e1f64.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/a81dba90f3c1c99db858712aad6975a6.1564296191.2b98b3d034604180b68736edbbc4fa37.230x140_19104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/a8f73a12cdddf0f835c47d97c73a52de.1563872182.7054426e8fd24c7bc744ddb607f514d7.230x140_15842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/a8f73a12cdddf0f835c47d97c73a52de.1564046935.263b7d7b7c433153fe4913923f5a44c3.230x140_11947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/a8f73a12cdddf0f835c47d97c73a52de.1564410319.b43f744bc63f371bd1c810f4544d255d.230x140_14531.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/c4ca4238a0b923820dcc509a6f75849b.1563848207.23764a6335ec7f2b7eb74ba569a28946.184x124_17499.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/cfcd208495d565ef66e7dff9f98764da.1563872268.124557b8aa6e0ca0f15c4743845ba032.184x124_60631.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/cfcd208495d565ef66e7dff9f98764da.1564373954.7097899b367de77ca7b4458a3a9b6a4a.230x140_91435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/df34abf7605df88924fc77fce8378a7c.1564226522.6c1dc96f7a92c013bf5698f4764b804d.184x124_39734.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/e9eeb9c616a7ff6d63fbca26abac24c2.1564392355.54c275bf830c79526e8e72f6635e7d53.230x140_21055.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/fa08ad3eb7c37ef1fc28f9d60fc3119b.1564195767.fbebcfb55cb4c2d5b20fb4fd1c9c80f5.184x124_36745.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/image/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/assets/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/pages/Main/Home/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_client/src/pages/Main/Main.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/build/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/build/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moba_client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/src/assets/css/initset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/src/assets/scss/initset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/src/assets/logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/moba_client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/src/router/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,47 +204,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moba_client/build/webpack.base.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="84" selection-end-column="7" />
+            <state relative-caret-position="316">
+              <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_client/build/webpack.dev.conf.js">
+        <entry file="file://$PROJECT_DIR$/moba_client/src/assets/scss/initset.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1575" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_client/static/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-84">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+            <state relative-caret-position="328">
+              <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/moba_client/src/assets/css/initset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_client/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/moba_client/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="273">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#140#161#0" expanded="true" />
@@ -126,35 +233,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_admin/build/utils.js">
+        <entry file="file://$PROJECT_DIR$/moba_client/config/dev.env.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moba_client/config/prod.env.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/moba_client/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="57" column="10" lean-forward="true" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+            <state relative-caret-position="357">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_admin/build/webpack.base.conf.js">
+        <entry file="file://$PROJECT_DIR$/moba_client/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="76" selection-end-column="7" />
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_client/build/utils.js">
+        <entry file="file://$PROJECT_DIR$/moba_client/src/pages/Main/Main.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="34" />
+            <state relative-caret-position="21">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moba_admin/build/webpack.dev.conf.js">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/moba_client/src/pages/Main/Home/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#swiper#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moba_client/src/assets/scss/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -163,8 +296,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -182,6 +315,7 @@
       <find>skill</find>
       <find>skills</find>
       <find>ads</find>
+      <find>content</find>
     </findStrings>
     <replaceStrings>
       <replace>request.</replace>
@@ -198,11 +332,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/moba_admin/src/App.vue" />
-        <option value="$PROJECT_DIR$/moba_admin/src/pages/Main/Categories/Create.vue" />
-        <option value="$PROJECT_DIR$/moba_admin/src/pages/Main/Categories/List.vue" />
-        <option value="$PROJECT_DIR$/moba_admin/config/index.js" />
-        <option value="$PROJECT_DIR$/moba_server/db/models.js" />
         <option value="$PROJECT_DIR$/moba_server/bin/www" />
         <option value="$PROJECT_DIR$/moba_admin/src/api/ajax.js" />
         <option value="$PROJECT_DIR$/moba_server/db/models/Category.js" />
@@ -240,12 +369,20 @@
         <option value="$PROJECT_DIR$/moba_admin/src/pages/Main/Main.vue" />
         <option value="$PROJECT_DIR$/moba_admin/src/main.js" />
         <option value="$PROJECT_DIR$/moba_client/src/assets/css/initset.less" />
-        <option value="$PROJECT_DIR$/moba_client/src/main.js" />
         <option value="$PROJECT_DIR$/moba_admin/build/utils.js" />
         <option value="$PROJECT_DIR$/moba_admin/build/webpack.base.conf.js" />
-        <option value="$PROJECT_DIR$/moba_client/build/utils.js" />
+        <option value="$PROJECT_DIR$/moba_client/src/App.vue" />
+        <option value="$PROJECT_DIR$/moba_client/index.html" />
+        <option value="$PROJECT_DIR$/moba_client/src/router/index.js" />
+        <option value="$PROJECT_DIR$/moba_client/src/pages/Main/Main.vue" />
         <option value="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/moba_client/build/utils.js" />
+        <option value="$PROJECT_DIR$/moba_client/src/main.js" />
         <option value="$PROJECT_DIR$/moba_client/src/assets/css/initset.scss" />
+        <option value="$PROJECT_DIR$/moba_client/src/assets/scss/_variables.scss" />
+        <option value="$PROJECT_DIR$/moba_client/src/assets/scss/initset.scss" />
+        <option value="$PROJECT_DIR$/moba_client/src/pages/Main/Home/Home.vue" />
+        <option value="$PROJECT_DIR$/moba_client/config/index.js" />
       </list>
     </option>
   </component>
@@ -267,6 +404,75 @@
             <path>
               <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
               <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="node_vue_moba" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node_vue_moba" type="462c0819:PsiDirectoryNode" />
+              <item name="moba_client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,20 +501,21 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets\image" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebStudying\node_vue_moba\moba_client\static" />
       <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages\Main" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\db\models" />
       <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages\Main\Items" />
       <recent name="E:\WebStudying\node_vue_moba\moba_admin\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -349,15 +556,17 @@
       <workItem from="1564147016882" duration="11259000" />
       <workItem from="1564230030544" duration="11361000" />
       <workItem from="1564314406572" duration="12529000" />
-      <workItem from="1564378791124" duration="9846000" />
+      <workItem from="1564378791124" duration="13023000" />
+      <workItem from="1564453617704" duration="10508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89832000" />
+    <option name="totallyTimeSpent" value="103517000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -371,7 +580,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32858709" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3231106" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -384,53 +593,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/moba_admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_server/package-lock.json" />
-    <entry file="file://$PROJECT_DIR$/moba_server/bin/www" />
-    <entry file="file://$PROJECT_DIR$/moba_server/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_admin/src/pages/Main/Articles/ArticlesList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_admin/src/pages/Main/ADs/ADsList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_admin/src/pages/Main/Heros/HeroList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-301">
-          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#template#0;n#el-table-column#2;n#el-table#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_admin/src/pages/Main/Categories/CategoryList.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moba_server/db/models/Item.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -602,13 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moba_admin/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moba_server/routes/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -648,20 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1162" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/config/prod.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/config/test.env.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/moba_admin/static/css/reset.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -669,20 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84">
           <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,29 +830,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/build/utils.js">
+    <entry file="file://$PROJECT_DIR$/moba_client/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_admin/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="34" />
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2704" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moba_client/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1575" />
+        <state relative-caret-position="523">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/config/test.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/pages/Main/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/assets/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/assets/scss/initset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/src/pages/Main/Home/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#swiper#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/moba_client/build/webpack.base.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="84" selection-end-column="7" />
+        <state relative-caret-position="316">
+          <caret line="75" column="9" lean-forward="true" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moba_client/src/assets/css/initset.scss">
+    <entry file="file://$PROJECT_DIR$/moba_client/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moba_client/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+        <state relative-caret-position="357">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
