@@ -25,7 +25,22 @@
         {{Object.keys(this.sprite).length === 10 ? '收起' : '展开'}}
       </div>
     </div>
+    <!--end of nav-->
 
+    <m-list-card icon="menu1" title="新闻资讯" :categories="newsCats">
+      <template #items="{category}">
+        <div class="py-2 d-flex ai-center" style="text-align: center" v-for="(news, i) in category.newsList" :key="i">
+          <span>[{{news.categoryName}}]</span>
+          <span>|</span>
+          <span class="flex-1" style="text-align: left">{{news.title}}</span>
+          <span>{{news.date}}</span>
+        </div>
+      </template>
+    </m-list-card>
+
+    <m-card icon="menu1" title="英雄列表"></m-card>
+    <m-card icon="menu1" title="精彩视频"></m-card>
+    <m-card icon="menu1" title="图文攻略"></m-card>
   </div>
 </template>
 
@@ -35,6 +50,9 @@
     data() {
       return {
         swiperOption: {
+          autoplay: {
+            delay: 3000
+          },
           pagination: {
             el: ".pagination-home"
           }
@@ -50,7 +68,49 @@
           camp: '王者营地',
           wechat: '公众号',
           edition: '版本介绍'
-        }
+        },
+        newsCats: [
+          {
+            name: '热门',
+            newsList: new Array(5).fill({}).map(v => ({
+              categoryName: '新闻',
+              title: '7月30日全服不停机更新公告',
+              date: '07/29'
+            }))
+          },
+          {
+            name: '新闻',
+            newsList: new Array(5).fill({}).map(v => ({
+              categoryName: '新闻',
+              title: '7月30日全服不停机更新公告',
+              date: '07/29'
+            }))
+          },
+          {
+            name: '活动',
+            newsList: new Array(5).fill({}).map(v => ({
+              categoryName: '新闻',
+              title: '7月30日全服不停机更新公告',
+              date: '07/29'
+            }))
+          },
+          {
+            name: '赛事',
+            newsList: new Array(5).fill({}).map(v => ({
+              categoryName: '新闻',
+              title: '7月30日全服不停机更新公告',
+              date: '07/29'
+            }))
+          },
+          {
+            name: '活动',
+            newsList: new Array(5).fill({}).map(v => ({
+              categoryName: '新闻',
+              title: '7月30日全服不停机更新公告',
+              date: '07/29'
+            }))
+          },
+        ]
       }
     },
     methods: {

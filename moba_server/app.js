@@ -34,6 +34,7 @@ app.set('secret', 'nodevuemoba')
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 require('./routes/admin/index')(app)
+require('./routes/web/index')(app)
 
 
 

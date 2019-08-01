@@ -112,11 +112,21 @@ a {
 
 // nav
 .nav{
+  display: flex;
   .nav-item{
     border-bottom: 3px solid transparent;
     padding-bottom: 0.2rem;
     &.active{
-      border-bottom: 3px solid #fff;
+      color: map_get($colors, 'primary');
+      border-bottom: 3px solid map_get($colors, 'primary');
+    }
+  }
+  &.nav-inverse{
+    .nav-item{
+      color: map_get($colors, 'white');
+      &.active{
+        border-bottom: 3px solid map_get($colors, 'white');
+      }
     }
   }
 }
