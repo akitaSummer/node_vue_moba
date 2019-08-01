@@ -23,5 +23,54 @@ module.exports = app => {
     await Article.insertMany(newsList)
     response.send(newsList)
   })
+
+  router.get('/news/list', async (request, response) => {
+    // // populate不能控制多个分类中单一分类的文章数量
+    // const parent = await Category.findOne({
+    //   name: '新闻分类'
+    // }).populate({
+    //   path: 'children',
+    //   populate: {
+    //     path: 'newsList'
+    //   }
+    // }).lean()
+
+    // 聚合查询
+    const parent = await Category.findOne({
+      name: '新闻分类'
+    })
+    const cats = await Category.aggregate([
+      {$match: {parent: parent._id}},
+      {
+        $lookup: {
+          from: 'articles',
+          localField: '_id',
+          foreignField: 'categories',
+          as: 'newsList'
+        }
+      },
+      {
+        $addFields: {
+          newsList: {$slice: ['$newsList', 5]}
+        }
+      }
+    ])
+    const subCats = cats.map(v => v._id)
+    cats.unshift({
+      name: '热门',
+      newsList: await Article.find().where({categories: {$in: subCats}}).populate('categories').limit(5).lean()
+    })
+
+    cats.map(cat => {
+      cat.newsList.map(news => {
+        news.categoryName = (cat.name === '热门' ? news.categories[0].name : cat.name)
+        return news
+      })
+      return cat
+    })
+
+    response.send(cats)
+  })
+
   app.use('/web/api', router)
 }

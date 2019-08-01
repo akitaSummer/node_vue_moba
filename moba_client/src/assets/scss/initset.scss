@@ -28,6 +28,14 @@ a {
   }
 }
 
+// text oveflow
+.text-ellipsis{
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 // text align
 @each $var in (left, center, right){
   .text-#{$var}{

@@ -2,6 +2,7 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import VueAwesomeSwiper from'vue-awesome-swiper'
+import axios from 'axios'
 
 import App from './App'
 import router from './router'
@@ -18,6 +19,10 @@ Vue.config.productionTip = false
 Vue.use(VueAwesomeSwiper)
 Vue.component('m-card', Card)
 Vue.component('m-list-card', ListCard)
+
+Vue.prototype.$http = axios.create({
+  baseURL: 'http://localhost:4001/web/api'
+})
 
 /* eslint-disable no-new */
 new Vue({

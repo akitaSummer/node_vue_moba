@@ -1,3 +1,4 @@
+
 const express = require('express')
 const jwt = require('jsonwebtoken')
 
@@ -34,5 +35,6 @@ router.get('/username', async (request, response) => {
   const {username} = await AdminUser.findById(id)
   return response.send({username})
 })
+
 
 module.exports = router
