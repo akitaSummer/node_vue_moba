@@ -52,7 +52,9 @@ Vue.mixin({
   methods: {
     // 图片上传时添加localStorage.token
     getAuthHeaders() {
-      return `Bearer ${localStorage.token}`
+      return {
+        Authorization: `Bearer ${localStorage.token || ''}`
+      }
     }
   }
 })

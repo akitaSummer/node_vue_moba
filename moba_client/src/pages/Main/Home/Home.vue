@@ -1,14 +1,8 @@
 <template>
   <div>
-    <swiper :options="swiperOption">
-      <swiper-slide>
-        <img class="w-100" src="../../../assets/image/9b86f489ca9ff2483da37488584e1f64.jpeg" alt="">
-      </swiper-slide>
-      <swiper-slide>
-        <img class="w-100" src="../../../assets/image/60837bd1f8a6bd32722c54f9b4dd7dec.jpeg" alt="">
-      </swiper-slide>
-      <swiper-slide>
-        <img class="w-100" src="../../../assets/image/1e8c9019a900d4e4add55eed0faa45cc.jpeg" alt="">
+    <swiper :options="swiperOption" ref="list" @click="replace($refs.list.swiper.realIndex)">
+      <swiper-slide v-for="ad in adCats" :key="ad._id">
+        <img class="w-100" :src="ad.image">
       </swiper-slide>
       <div class="swiper-pagination pagination-home px-3 pb-1" style="text-align: right" slot="pagination"></div>
     </swiper>
@@ -29,16 +23,28 @@
 
     <m-list-card icon="menu1" title="新闻资讯" :categories="newsCats">
       <template #items="{category}">
-        <div class="py-2 fs-lg d-flex ai-center" style="text-align: center" v-for="(news, i) in category.newsList" :key="i">
+        <router-link tag="div" :to="`/articles/${news._id}`" class="py-2 fs-lg d-flex ai-center" style="text-align: center" v-for="(news, i) in category.newsList" :key="i">
           <span class="text-gray">[{{news.categoryName}}]</span>
           <span class="px-2">|</span>
           <span class="flex-1 text-dark text-ellipsis pr-2" style="text-align: left">{{news.title}}</span>
           <span class="text-gray fs-sm">{{news.createdAt | date}}</span>
+        </router-link>
+      </template>
+    </m-list-card>
+
+    <!--end of news-->
+
+    <m-list-card icon="card-hero" title="英雄列表" :categories="heroCats">
+      <template #items="{category}">
+        <div class="d-flex flex-wrap" style="margin: 0 -0.5rem">
+          <router-link tag="div" :to="`/heroes/${hero._id}`" class="p-2 text-center" style="width: 20%" v-for="(hero, i) in category.heroList" :key="i">
+            <img :src="hero.avatar" style="width: 100%">
+            <div>{{hero.name}}</div>
+          </router-link>
         </div>
       </template>
     </m-list-card>
 
-    <m-card icon="menu1" title="英雄列表"></m-card>
     <m-card icon="menu1" title="精彩视频"></m-card>
     <m-card icon="menu1" title="图文攻略"></m-card>
   </div>
@@ -52,7 +58,8 @@
       return {
         swiperOption: {
           autoplay: {
-            delay: 3000
+            delay: 3000,
+            disableOnInteraction: false,
           },
           pagination: {
             el: ".pagination-home"
@@ -70,7 +77,9 @@
           wechat: '公众号',
           edition: '版本介绍'
         },
-        newsCats: []
+        newsCats: [],
+        heroCats: [],
+        adCats: []
       }
     },
     methods: {
@@ -99,12 +108,25 @@
         }
       },
       async fetchNewsCats() {
-        const response = await this.$http.get('news/List')
+        const response = await this.$http.get('news/list')
         this.newsCats = response.data
+      },
+      async fetchHeroCats() {
+        const response = await this.$http.get('heroes/list')
+        this.heroCats = response.data
+      },
+      async fetchAdCats() {
+        const response = await this.$http.get('ad/list')
+        this.adCats = response.data.items
+      },
+      replace(index) {
+        document.location.replace(this.adCats[index].url)
       }
     },
     created() {
       this.fetchNewsCats()
+      this.fetchHeroCats()
+      this.fetchAdCats()
     },
     filters: {
       date(val) {

@@ -4,8 +4,8 @@
       {{id ? '编辑' : '新建'}}英雄
     </h1>
     <el-form label-width="120px" @submit.native.prevent="save" style="marginTop: 1rem;">
-      <el-tabs value='skills' type="border-card">
-        <el-tab-pane label="基础信息">
+      <el-tabs type="border-card" value="basic">
+        <el-tab-pane label="基础信息" name="basic">
           <el-form-item label="名称">
             <el-input v-model="model.name"></el-input>
           </el-form-item>
@@ -13,11 +13,26 @@
             <el-upload
               method="post"
               class="avatar-uploader"
-              action="http://localhost:4001/admin/api/upload"
+              :action="uploadUrl"
+              :headers="getAuthHeaders()"
               :show-file-list="true"
               :on-success="afterUpload">
-              <div class="el-upload">
+              <div>
                 <img v-if="model.avatar" :src="model.avatar" class="avatar">
+                <i v-else class="el-icon-plus avatar-uploader-icon"></i>
+              </div>
+            </el-upload>
+          </el-form-item>
+          <el-form-item label="Banner">
+            <el-upload
+              method="post"
+              class="avatar-uploader"
+              :action="uploadUrl"
+              :headers="getAuthHeaders()"
+              :show-file-list="true"
+              :on-success="response => $set(model, 'banner', response.url)">
+              <div>
+                <img v-if="model.banner" :src="model.banner" class="avatar">
                 <i v-else class="el-icon-plus avatar-uploader-icon"></i>
               </div>
             </el-upload>
@@ -81,8 +96,11 @@
                   <i v-else class="el-icon-plus avatar-uploader-icon"></i>
                 </el-upload>
               </el-form-item>
-              <el-form-item label="冷却/消耗">
-                <el-input v-model="item.cd"></el-input>
+              <el-form-item label="冷却">
+                <el-input v-model="item.delay"></el-input>
+              </el-form-item>
+              <el-form-item label="消耗">
+                <el-input v-model="item.cost"></el-input>
               </el-form-item>
               <el-form-item label="描述">
                 <el-input type="textarea" v-model="item.description"></el-input>
@@ -92,6 +110,24 @@
               </el-form-item>
               <el-form-item>
                 <el-button type="danger" @click="model.skills.splice(i, 1)">删除</el-button>
+              </el-form-item>
+            </el-col>
+          </el-row>
+        </el-tab-pane>
+        <el-tab-pane label="最佳拍档" name="partners">
+          <el-button @click="model.partners.push({})"><i class="el-icon-plus"></i>添加英雄</el-button>
+          <el-row type="flex" style="flex-wrap: wrap">
+            <el-col :span="12" v-for="(item, i) in model.partners" :key="i">
+              <el-form-item label="英雄">
+                <el-select filterable v-model="item.hero">
+                  <el-option v-for="hero in heroes" :key="hero._id" :value="hero._id" :label="hero.name"></el-option>
+                </el-select>
+              </el-form-item>
+              <el-form-item label="描述">
+                <el-input type="textarea" v-model="item.description"></el-input>
+              </el-form-item>
+              <el-form-item>
+                <el-button type="danger" @click="model.partners.splice(i, 1)">删除</el-button>
               </el-form-item>
             </el-col>
           </el-row>
@@ -128,11 +164,13 @@
           usageTips: '',
           battleTips: '',
           teamTips: '',
-          skills: []
+          skills: [],
+          partners: []
         },
         categories: [],
         items1: [],
-        items2: []
+        items2: [],
+        heroes: []
       }
     },
     methods: {
@@ -164,14 +202,20 @@
         const response = await this.$http(`rest/items`)
         this.items1 = this.items2 = response.data
       },
+      // 获取英雄列表
+      async fetchHeroes() {
+        const response = await this.$http(`rest/heroes`)
+        this.heroes = response.data
+      },
       // 头像图片上传成功后返回图片
       afterUpload(response) {
-        this.model.avatar = response.url
+        this.$set(this.model, 'avatar', response.url)
       }
     },
     created() {
       this.fetchCategories()
       this.fetchItems()
+      this.fetchHeroes()
       this.id && this.fetch()
     },
     watch: {
