@@ -4,6 +4,7 @@ var router = express.Router();
 // 新建/修改分类
 router.post('/', async (request, response) => {
   const model = new request.Model(request.body)
+  console.log(model)
   await model.save((error, item) => {response.send(item)})
 })
 
