@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="pt-2">
-      <swiper :options="{autoHeight: true}" ref="list" @slide-change="() => active = $refs.list.swiper.realIndex">
+      <swiper :options="swiperOption" ref="list" @slide-change="() => active = $refs.list.swiper.realIndex">
         <swiper-slide v-for="(category, i) in categories" :key="i">
           <slot name="items" :category="category"></slot>
         </swiper-slide>
@@ -25,7 +25,11 @@
     },
     data() {
       return {
-        active: 0
+        active: 0,
+        swiperOption: {
+          autoHeight: true,
+          roundLengths: true
+        }
       }
     }
   }

@@ -45,8 +45,40 @@
       </template>
     </m-list-card>
 
-    <m-card icon="menu1" title="精彩视频"></m-card>
-    <m-card icon="menu1" title="图文攻略"></m-card>
+    <!--end of hero-->
+    <m-list-card icon="menu1" title="精彩视频" :categories="videoCats">
+      <template  #items="{category}">
+        <div class="d-flex flex-wrap"  style="margin: 0 -0.4rem">
+          <router-link tag="div" :to="`/articles/${article._id}`" style="width: 50%" class="p-2" v-for="(article, i) in category.articleList" :key="i">
+            <img :src="article.thumbnail" height="100px" width="164.28px">
+            <div class="content fs-lg">{{article.title}}</div>
+            <div class="d-flex ai-center">
+              <div class="sprite sprite-play"></div>
+              <div class="text-gray fs-sm flex-1">{{(Math.random()*100).toFixed(1)}}万</div>
+              <span class="text-gray fs-sm">{{article.createdAt | date}}</span>
+            </div>
+          </router-link>
+        </div>
+      </template>
+    </m-list-card>
+
+    <!--end of video-->
+    <m-list-card icon="menu1" title="图文攻略" :categories="strategyCats">
+      <template  #items="{category}">
+        <div class="d-flex flex-wrap"  style="margin: 0 -0.4rem">
+          <router-link tag="div" :to="`/articles/${article._id}`" style="width: 100%" class="p-2" v-for="(article, i) in category.articleList" :key="i">
+            <div class="d-flex border-bottom pb-2">
+              <img :src="article.thumbnail" width="116px" height="70px">
+              <div class="flex-1 pb-2 pl-2">
+                <div class="title fs-lg mr-2">{{article.title}}</div>
+                <div class="content text-gray fs-sm flex-1">{{article.title}}</div>
+                <div class="text-gray fs-sm pt-2" style="display: flow;bottom: 0">{{article.createdAt | date}}</div>
+              </div>
+            </div>
+          </router-link>
+        </div>
+      </template>
+    </m-list-card>
   </div>
 </template>
 
@@ -79,7 +111,9 @@
         },
         newsCats: [],
         heroCats: [],
-        adCats: []
+        adCats: [],
+        videoCats: [],
+        strategyCats: []
       }
     },
     methods: {
@@ -119,6 +153,14 @@
         const response = await this.$http.get('ad/list')
         this.adCats = response.data.items
       },
+      async fetchVideoCats() {
+        const response = await this.$http.get('video/list')
+        this.videoCats = response.data
+      },
+      async fetchStrategyCats() {
+        const response = await this.$http.get('strategy/list')
+        this.strategyCats = response.data
+      },
       replace(index) {
         document.location.replace(this.adCats[index].url)
       }
@@ -127,6 +169,8 @@
       this.fetchNewsCats()
       this.fetchHeroCats()
       this.fetchAdCats()
+      this.fetchStrategyCats()
+      this.fetchVideoCats()
     },
     filters: {
       date(val) {
@@ -162,5 +206,17 @@
       border-right: none;
     }
     }
+  }
+  .content{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .title{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
   }
 </style>
