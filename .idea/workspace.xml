@@ -55,8 +55,33 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/css/app.eb4ba009.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/boston.c6df744d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/face1.4e419105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/face2.a488c8ec.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/map.fda0c03b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/new_york.518b18c7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/san_francisco.0bc46142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/img/washington.d680b067.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/js/app.13a405d8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/js/app.13a405d8.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/js/chunk-vendors.a627dc88.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/limni/js/chunk-vendors.a627dc88.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/css/app.aad607c2486abc3ca12608838e7d3454.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/css/app.aad607c2486abc3ca12608838e7d3454.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/img/index.11e7107.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/app.4e0cdfaf9005eae2bc83.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/app.4e0cdfaf9005eae2bc83.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/manifest.11e7fb50950823c9dc67.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/manifest.11e7fb50950823c9dc67.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/vendor.5d85db8f689aa86b6e83.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/web/static/js/vendor.5d85db8f689aa86b6e83.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +98,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/moba_admin" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1USXyaxljjk7n6PeOjRdhaV1MZt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,7 +112,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server/limni" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -109,11 +134,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStudying\node_vue_moba\moba_server\limni" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\web" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\moba" />
       <recent name="E:\WebStudying\node_vue_moba\moba_client" />
       <recent name="E:\WebStudying\node_vue_moba\web" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WebStudying\node_vue_moba\moba_client\src\components\Card" />
@@ -272,7 +297,7 @@
       <workItem from="1578398939376" duration="2364000" />
       <workItem from="1578401409546" duration="190000" />
       <workItem from="1578401609867" duration="200000" />
-      <workItem from="1578401820356" duration="11733000" />
+      <workItem from="1578401820356" duration="12410000" />
     </task>
     <servers />
   </component>

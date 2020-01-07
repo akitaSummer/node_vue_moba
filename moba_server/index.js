@@ -21,7 +21,7 @@ require('./routes/web/index')(app)
 app.use('/public', express.static(__dirname + '/public'))
 app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/moba', express.static(__dirname + '/moba'))
-app.use('/web', express.static(__dirname + '/web'))
+app.use('/limni', express.static(__dirname + '/limni'))
 
 
 // 导入路由
