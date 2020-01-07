@@ -27,7 +27,7 @@ require('./db/db')(app)
 // 静态文件
 app.use('/public', express.static(__dirname + '/public'))
 app.use('/admin', express.static(__dirname + '/admin'))
-app.use('/', express.static(__dirname + '/web'))
+app.use('/moba', express.static(__dirname + '/moba'))
 
 // 设置变量
 app.set('secret', 'nodevuemoba')
