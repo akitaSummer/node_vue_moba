@@ -55,15 +55,8 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/moba_admin/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/.eslintignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/vue.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/routes/admin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/routes/admin/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +272,7 @@
       <workItem from="1578398939376" duration="2364000" />
       <workItem from="1578401409546" duration="190000" />
       <workItem from="1578401609867" duration="200000" />
-      <workItem from="1578401820356" duration="7520000" />
+      <workItem from="1578401820356" duration="7958000" />
     </task>
     <servers />
   </component>
