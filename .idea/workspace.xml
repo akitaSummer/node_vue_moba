@@ -55,8 +55,20 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/css/app.aad607c2486abc3ca12608838e7d3454.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/css/app.aad607c2486abc3ca12608838e7d3454.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/img/index.11e7107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/app.4e0cdfaf9005eae2bc83.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/app.4e0cdfaf9005eae2bc83.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/manifest.11e7fb50950823c9dc67.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/manifest.11e7fb50950823c9dc67.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/vendor.5d85db8f689aa86b6e83.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/web/static/js/vendor.5d85db8f689aa86b6e83.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server/moba" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server/web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -109,8 +121,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebStudying\node_vue_moba\moba_server\moba" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\web" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_server\moba" />
       <recent name="E:\WebStudying\node_vue_moba\moba_client" />
       <recent name="E:\WebStudying\node_vue_moba\web" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server" />
@@ -272,7 +284,7 @@
       <workItem from="1578398939376" duration="2364000" />
       <workItem from="1578401409546" duration="190000" />
       <workItem from="1578401609867" duration="200000" />
-      <workItem from="1578401820356" duration="9578000" />
+      <workItem from="1578401820356" duration="10949000" />
     </task>
     <servers />
   </component>

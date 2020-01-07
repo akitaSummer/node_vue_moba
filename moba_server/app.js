@@ -28,6 +28,7 @@ require('./db/db')(app)
 app.use('/public', express.static(__dirname + '/public'))
 app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/moba', express.static(__dirname + '/moba'))
+app.use('/web', express.static(__dirname + '/web'))
 
 // 设置变量
 app.set('secret', 'nodevuemoba')
