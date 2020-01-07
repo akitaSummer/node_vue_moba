@@ -13,7 +13,8 @@ import 'element-ui/lib/theme-chalk/index.css';
 
 Vue.use(ElementUI)
 
-const api = 'http://localhost:4001/admin/api/'
+const api = process.env.VUE_APP_API_URL || '/admin/api/'
+// const api = 'http://localhost:4001/admin/api/'
 Vue.prototype.$http = (url, data = {}, type = 'GET') => {return ajax(api+url, data, type)}
 
 // 添加请求拦截器

@@ -6,7 +6,6 @@
       </swiper-slide>
       <div class="swiper-pagination pagination-home px-3 pb-1" style="text-align: right" slot="pagination"></div>
     </swiper>
-    <!--end of swiper-->
     <div class="nav-icons bg-white mt-3 text-center pt-3 text-dark-1">
       <div class="d-flex flex-wrap">
         <div class="nav-item" v-for="(value, key) in sprite" :key="key">
