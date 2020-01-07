@@ -55,7 +55,15 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_admin/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/moba_admin/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/.eslintignore" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/.eslintignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/build/webpack.base.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_client/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_client/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +74,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -82,10 +90,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/moba_server/moba" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -102,23 +111,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebStudying\node_vue_moba\moba_server\moba" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_server\web" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_client" />
+      <recent name="E:\WebStudying\node_vue_moba\web" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WebStudying\node_vue_moba\moba_client\src\components\Card" />
       <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets" />
       <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets\image" />
       <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages" />
       <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\components" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WebStudying\node_vue_moba\moba_server" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_server\web" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_client" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_server\admin" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_client\static" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -266,7 +275,11 @@
       <workItem from="1577343046391" duration="599000" />
       <workItem from="1577437199173" duration="596000" />
       <workItem from="1577865811653" duration="365000" />
-      <workItem from="1578395767064" duration="261000" />
+      <workItem from="1578395767064" duration="3050000" />
+      <workItem from="1578398939376" duration="2364000" />
+      <workItem from="1578401409546" duration="190000" />
+      <workItem from="1578401609867" duration="200000" />
+      <workItem from="1578401820356" duration="7520000" />
     </task>
     <servers />
   </component>
@@ -278,14 +291,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576564789213" />
-    <state x="264" y="236" key="RollbackChangesDialog" timestamp="1576564870005">
+    <state x="264" y="236" key="RollbackChangesDialog" timestamp="1578401053925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="264" y="236" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576564870005" />
-    <state x="463" y="164" key="SettingsEditor" timestamp="1575351366096">
+    <state x="264" y="236" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578401053925" />
+    <state x="463" y="164" key="SettingsEditor" timestamp="1578401809427">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575351366096" />
+    <state x="463" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578401809427" />
     <state x="143" y="230" width="670" height="58" key="search.everywhere.popup" timestamp="1576565619693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
