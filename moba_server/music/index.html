@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum=1.0,user-scalable=no">
+    <title>Document</title>
+    <link rel="stylesheet" href="/music/css/set.css">
+</head>
+
+<body>
+    <div class="wrap bg-gray-1">
+        <div class="scrollBar"></div>
+        <div class="top">
+            <div class="head d-flex ai-center bg-black">
+                <img src="img/logo_new.png" class='logo mx-2'>
+                <div class='flex-1 d-flex jc-end ai-center'>
+                    <img src="img/sbtn.png" class='search'>
+                    <a href="javascript:;" class='mx-3 fs-xxs text-white'>登录</a>
+                </div>
+            </div>
+            <div class="nav">
+                <ul class="list">
+                    <li><a href="javascript:;" class='active'>首页</a></li>
+                    <li><a href="javascript:;">MV</a></li>
+                    <li><a href="javascript:;">悦单</a></li>
+                    <li><a href="javascript:;">V榜</a></li>
+                    <li><a href="javascript:;">音悦</a></li>
+                    <li><a href="javascript:;">商城</a></li>
+                    <li><a href="javascript:;">节目</a></li>
+                    <li><a href="javascript:;">饭团</a></li>
+                    <li><a href="javascript:;">咨询</a></li>
+                    <li><a href="javascript:;">我的家</a></li>
+                    <li><a href="javascript:;">APP下载</a></li>
+                    <li><a href="javascript:;">热门应用</a></li>
+                    <div class="smallB"></div>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <div class="carousel-wrap" needCarousel needAuto>
+                    <div class="points-wrap"></div>
+                </div>
+                <div class="card-1 card">
+                    <div class="card-nav">
+                        <div class='card-nav-content'></div>
+                        <div class="flex-1"></div>
+                        <div class="card-change">换一换</div>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+                <div class="card-2 card">
+                    <div class="card-nav">
+                        <div class='card-nav-content'></div>
+                        <div class="flex-1"></div>
+                        <div class="card-change">换一换</div>
+                    </div>
+                    <div class="card-content">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom">
+            <div class="d-flex ai-center bg-white">
+                <img src="img/logo.png" class='logo ml-3 mr-2'>
+                <div class='flex-1 fs-xxs text-black'>
+                    <p>上音悦Tai客户端</p>
+                    <p>高清视频 新歌打榜 最新MV一览无余</p>
+                </div>
+                <div class='button px-3 mx-2 text-white'>下载</div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/music/js/tools.js"></script>
+<script>
+    window.onload = () => {
+        //禁止默认行为
+        document.addEventListener('touchstart', (ev) => {
+            ev = ev || window.event
+            ev.preventDefault()
+        })
+
+        // rem 适配
+        ;
+        (() => {
+            const styleNode = document.createElement('style')
+            const width = document.documentElement.clientWidth / 16
+            styleNode.innerHTML = `html{font-size: ${width}px!important}`
+            document.head.appendChild(styleNode)
+        })()
+
+        const arr1 = ['/music/img/001.jpg', '/music/img/002.jpg', '/music/img/003.jpg', '/music/img/004.jpg', '/music/img/005.png', '/music/img/006.png', '/music/img/007.jpg', '/music/img/008.jpg', '/music/img/009.jpg', '/music/img/010.jpg']
+        const contentArr1 = [{
+            img: '/music/img/101.jpg',
+            content: '这么久没见 官方版',
+            author: '薛之谦'
+        }, {
+            img: '/music/img/102.jpg',
+            content: '骑单车 官方版',
+            author: '易安音乐社'
+        }, {
+            img: '/music/img/103.jpg',
+            content: 'Magnetic Moon',
+            author: 'Tiffany'
+        }, {
+            img: '/music/img/104.jpg',
+            content: 'Boyfriend',
+            author: 'Ariana Grande'
+        }, {
+            img: '/music/img/105.jpg',
+            content: '纠缠 官方版',
+            author: '信'
+        }, {
+            img: '/music/img/106.jpg',
+            content: 'What are you up to',
+            author: '麦丹尼尔'
+        }]
+        const contentArr2 = [{
+            img: '/music/img/201.jpg',
+            content: 'AI MV花絮',
+            author: ''
+        }, {
+            img: '/music/img/202.jpg',
+            content: '没资格男多 MV幕后花絮',
+            author: ''
+        }, {
+            img: '/music/img/203.jpg',
+            content: '当杰伦来到圣所',
+            author: ''
+        }, {
+            img: '/music/img/204.jpg',
+            content: 'Love Myself全球活动影像',
+            author: ''
+        }, {
+            img: '/music/img/205.jpg',
+            content: '被迷住了吧',
+            author: 'FNS歌谣祭'
+        }, {
+            img: '/music/img/206.jpg',
+            content: '我是一只小小鸟 现场版',
+            author: ''
+        }]
+        carousel(arr1)
+        drag()
+
+        const changeChoose = () => {
+            const list = document.querySelector('.wrap .top .list')
+            const aNodes = document.querySelectorAll('.wrap .top .list li a')
+            const smallB = document.querySelector('.wrap .top .list .smallB')
+            list.addEventListener('touchstart', () => {
+                list.isMove = false
+            })
+            list.addEventListener('touchmove', () => {
+                list.isMove = true
+            })
+            list.addEventListener('touchend', (ev) => {
+                ev = ev || window.event
+                if (list.isMove) {
+                    return
+                }
+                const touchC = ev.changedTouches[0]
+                for (let i = 0; i < aNodes.length; i++) {
+                    tools.removeClass(aNodes[i], 'active')
+                }
+                tools.addClass(touchC.target, 'active')
+                const active = document.querySelector('.wrap .top .list .active')
+                smallB.style.width = active.offsetWidth + 'px'
+                smallB.style.transition = '1s transform'
+                css(smallB, 'translateX', active.offsetLeft)
+            })
+        }
+
+        changeChoose()
+
+        card('MV首播', contentArr1, 'card-1')
+        card('娱乐', contentArr2, 'card-2')
+
+        const Move = () => {
+            const wrap = document.querySelector('.wrap')
+            const content = document.querySelector('.wrap .content div')
+            const bar = document.querySelector('.wrap .scrollBar')
+            const scale = wrap.clientHeight / content.clientHeight
+            bar.style.height = wrap.clientHeight * scale + 'px'
+            const callback = {
+                start() {
+                    bar.style.opacity = 1
+                },
+                move() {
+                    const scale = css(this, 'translateY') / (wrap.clientHeight - content.clientHeight)
+                    css(bar, 'translateY', scale * (wrap.clientHeight - bar.offsetHeight))
+                },
+                end() {
+                    bar.style.opacity = 0
+                }
+            }
+            vMove(wrap, callback)
+        }
+        setTimeout(Move, 50)
+
+    }
+</script>
+
+</html>

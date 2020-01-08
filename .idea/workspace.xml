@@ -55,32 +55,9 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/limni/css/app.5ed13e2b.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/css/app.137a5807.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/css/chunk-vendors.c412edf5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/img/iconfont.57364c54.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/img/logo.fc64bf07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/js/app.ec99fa26.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/js/app.ec99fa26.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/js/chunk-vendors.dea2173a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/moba/js/chunk-vendors.dea2173a.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moba_server/music/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/limni/css/app.eb4ba009.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/limni/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/limni/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/limni/js/app.13a405d8.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/limni/js/app.d200f51a.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/limni/js/app.13a405d8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/limni/js/app.d200f51a.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/moba/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/css/app.aad607c2486abc3ca12608838e7d3454.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/css/app.aad607c2486abc3ca12608838e7d3454.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/img/index.11e7107.png" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/moba/img/index.11e71079.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/app.4e0cdfaf9005eae2bc83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/app.4e0cdfaf9005eae2bc83.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/manifest.11e7fb50950823c9dc67.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/manifest.11e7fb50950823c9dc67.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/vendor.5d85db8f689aa86b6e83.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/moba/static/js/vendor.5d85db8f689aa86b6e83.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moba_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,19 +109,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebStudying\node_vue_moba\moba_server\music" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\components\Card" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets\image" />
+      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\WebStudying\node_vue_moba\moba_server\moba" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\limni" />
       <recent name="E:\WebStudying\node_vue_moba\moba_server\web" />
       <recent name="E:\WebStudying\node_vue_moba\moba_client" />
       <recent name="E:\WebStudying\node_vue_moba\web" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\components\Card" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_client\src\assets\image" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\pages" />
-      <recent name="E:\WebStudying\node_vue_moba\moba_admin\src\components" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -296,7 +273,9 @@
       <workItem from="1578398939376" duration="2364000" />
       <workItem from="1578401409546" duration="190000" />
       <workItem from="1578401609867" duration="200000" />
-      <workItem from="1578401820356" duration="13677000" />
+      <workItem from="1578401820356" duration="14089000" />
+      <workItem from="1578476159177" duration="1224000" />
+      <workItem from="1578477727384" duration="816000" />
     </task>
     <servers />
   </component>
@@ -308,6 +287,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="192" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578418384122" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1578476305099">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578476305099" />
     <state x="264" y="236" key="RollbackChangesDialog" timestamp="1578401053925">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

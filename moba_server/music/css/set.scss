@@ -1,0 +1,330 @@
+@import './variables.scss';
+@import './onepx.scss';
+// css reset
+html,
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+span,
+div,
+p,
+a,
+form,
+input {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+input,
+button {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+}
+
+img {
+    display: block;
+}
+
+// init
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: Tahoma, 微软雅黑, "Microsoft Yahei", "hiragino sans gb", Helvetica, Arial, 宋体, sans-serif;
+    line-height: 1.2em;
+    background: map-get($map: $colors, $key: 'gary-1');
+}
+
+// 1rem为多少位图像素
+$rem: 750/16rem;
+// flex
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+@each $key,
+$value in $flex-jc {
+    .jc-#{$key} {
+        justify-content: $value;
+    }
+}
+
+@each $key,
+$value in $flex-jc {
+    .ai-#{$key} {
+        align-items: $value;
+    }
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+@each $typeKey,
+$type in $spacing-types {
+    // .m-1
+    @each $sizeKey,
+    $size in $spacing-sizes {
+        .#{$typeKey}-#{$sizeKey} {
+            #{$type}: $size * $spacing-base-size;
+        }
+    }
+    // .mx-1
+    @each $sizeKey,
+    $size in $spacing-sizes {
+        .#{$typeKey}x-#{$sizeKey} {
+            #{$type}-left: $size * $spacing-base-size;
+            #{$type}-right: $size * $spacing-base-size;
+        }
+        // .my-1
+        .#{$typeKey}y-#{$sizeKey} {
+            #{$type}-top: $size * $spacing-base-size;
+            #{$type}-bottom: $size * $spacing-base-size;
+        }
+    }
+    // .mt-1 {}
+    @each $directionKey,
+    $direction in $spacing-directions {
+        @each $sizeKey,
+        $size in $spacing-sizes {
+            .#{$typeKey}#{$directionKey}-#{$sizeKey} {
+                #{$type}-#{$direction}: $size * $spacing-base-size;
+            }
+        }
+    }
+}
+
+@each $colorKey,
+$color in $colors {
+    .text-#{$colorKey} {
+        color: $color;
+    }
+    .bg-#{$colorKey} {
+        background: $color;
+    }
+}
+
+// text oveflow
+.text-ellipsis {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// text align
+@each $var in (left, center, right) {
+    .text-#{$var} {
+        text-align: $var;
+    }
+}
+
+@each $sizeKey,
+$size in $font-sizes {
+    .fs-#{$sizeKey} {
+        font-size: $size * $base-font-size;
+    }
+}
+
+// clearfix
+.clearfix {
+    zoom: 1;
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+.wrap {
+    height: 100%;
+    .top {
+        position: sticky;
+        top: 0;
+        z-index: 8;
+        .head {
+            height: 90/$rem;
+            .logo {
+                width: 112/$rem;
+                height: 40/$rem;
+            }
+            .search {
+                width: 37.5/$rem;
+                height: 37.5/$rem;
+            }
+        }
+        .nav {
+            @include onepx-bottom;
+            position: relative;
+            width: 100%;
+            height: 75/$rem;
+            background: map-get($map: $colors, $key: 'white');
+            .list {
+                white-space: nowrap;
+                height: 100%;
+                float: left;
+                padding: 14/$rem 0 14/$rem 0;
+                li {
+                    display: inline-block;
+                    font-size: 0.5rem;
+                    height: 100%;
+                    text-align: center;
+                    vertical-align: top;
+                    margin: 0 0.75rem;
+                    a {
+                        color: map-get($map: $colors, $key: 'black');
+                    }
+                }
+                .smallB {
+                    height: 4/$rem;
+                    width: 47/$rem;
+                    position: absolute;
+                    transform: translateX(18px);
+                    bottom: 1px;
+                    background-color: map-get($map: $colors, $key: 'blue');
+                }
+            }
+        }
+    }
+    .content {
+        .carousel-wrap {
+            position: relative;
+            .list {
+                list-style: none;
+                overflow: hidden;
+                position: absolute;
+                li {
+                    float: left;
+                    img {
+                        width: 100%;
+                        height: 430/$rem;
+                        display: block;
+                    }
+                    a {
+                        display: block;
+                    }
+                }
+            }
+            .points-wrap {
+                position: absolute;
+                width: 100%;
+                bottom: 0;
+                text-align: center;
+                z-index: 1;
+                span {
+                    display: inline-block;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: grey;
+                    margin-left: 5px;
+                    &.active {
+                        background: pink;
+                    }
+                }
+            }
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem 0;
+            margin-bottom: 0.5rem;
+            background-color: map-get($map: $colors, $key: 'white');
+            .card-nav {
+                display: flex;
+                padding: 0.25rem 0;
+                .card-nav-content {
+                    padding: 0 0.5rem;
+                    font-weight: bold;
+                    font-size: 0.6154rem;
+                }
+                .card-change {
+                    padding: 0 0.5rem;
+                    font-size: 0.45rem;
+                }
+            }
+            .card-content {
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 360/$rem;
+                    padding: 0 0.25rem;
+                }
+                .card-content-box {
+                    padding: 0 0.5rem;
+                    .img-content {
+                        font-size: 0.5rem;
+                        height: 20px;
+                    }
+                    .img-author {
+                        font-size: 0.45rem;
+                        height: 20px;
+                        color: map-get($map: $colors, $key: 'gray');
+                    }
+                }
+            }
+        }
+    }
+    .bottom {
+        position: sticky;
+        bottom: 0;
+        z-index: 8;
+        height: 100/rem;
+        img {
+            width: 76/$rem;
+            height: 76/$rem;
+        }
+        p {
+            font-size: 0.45rem;
+        }
+        .button {
+            font-size: 0.6rem;
+            font-weight: bold;
+            background: map-get($map: $colors, $key: 'blue');
+        }
+    }
+    .scrollBar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 2px;
+        height: 100%;
+        background: darkgray;
+        z-index: 9;
+        transition: 1s opacity;
+        opacity: 0;
+    }
+}

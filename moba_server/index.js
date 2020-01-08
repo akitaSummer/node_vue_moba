@@ -22,6 +22,8 @@ app.use('/public', express.static(__dirname + '/public'))
 app.use('/admin', express.static(__dirname + '/admin'))
 app.use('/moba', express.static(__dirname + '/moba'))
 app.use('/limni', express.static(__dirname + '/limni'))
+app.use('/music', express.static(__dirname + '/music'))
+app.use('/todoapp', express.static(__dirname + '/todoapp'))
 
 
 // 导入路由
