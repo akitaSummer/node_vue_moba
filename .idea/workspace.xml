@@ -55,9 +55,7 @@
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/setup.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/test/unit/specs/HelloWorld.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/moba_admin/vue.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moba_server/music/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/moba_server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/moba_server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +72,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/moba_admin" />
   </component>
   <component name="ProjectId" id="1USXyaxljjk7n6PeOjRdhaV1MZt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -275,7 +273,8 @@
       <workItem from="1578401609867" duration="200000" />
       <workItem from="1578401820356" duration="14089000" />
       <workItem from="1578476159177" duration="1224000" />
-      <workItem from="1578477727384" duration="816000" />
+      <workItem from="1578477727384" duration="1446000" />
+      <workItem from="1578571385162" duration="1197000" />
     </task>
     <servers />
   </component>
