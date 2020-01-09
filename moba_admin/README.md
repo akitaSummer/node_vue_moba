@@ -13,5 +13,5 @@
 ## AdminUsers 后台用户管理
 用于管理后台用户的账号
 
- ![admin01](/1.gif)
- ![admin02](/2.gif)
+ ![admin01](/moba_admin/1.gif)
+ ![admin02](/moba_admin//2.gif)

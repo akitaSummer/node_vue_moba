@@ -3,5 +3,5 @@
 包含主界面, 新闻界面, 英雄详情界面
 自定义封装了Card组件
 
- ![admin01](/1.gif)
- ![admin02](/2.gif)
+ ![admin01](/moba_client/1.gif)
+ ![admin02](/moba_client/2.gif)
