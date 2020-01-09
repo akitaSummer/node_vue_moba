@@ -4,4 +4,3 @@
 自定义封装了Card组件
 
  ![admin01](/moba_client/1.gif)
- ![admin02](/moba_client/2.gif)
