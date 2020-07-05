@@ -24,6 +24,7 @@ app.use('/moba', express.static(__dirname + '/moba'))
 app.use('/limni', express.static(__dirname + '/limni'))
 app.use('/music', express.static(__dirname + '/music'))
 app.use('/todoapp', express.static(__dirname + '/todoapp'))
+app.use('/akita_summer_component_library', express.static(__dirname + '/akita_summer_component_library'))
 
 
 // 导入路由
@@ -32,5 +33,5 @@ app.use('/users', usersRouter);
 
 
 app.listen(4001, () => {
-  console.log('http://localhost:4001');
+    console.log('http://localhost:4001');
 });

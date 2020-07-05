@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/akitaSummer/akita_summer_component_library/static/css/main.5d82cc01.chunk.css",
+    "main.js": "/akitaSummer/akita_summer_component_library/main.264729f47435333a13b1.bundle.js",
+    "main.css.map": "/akitaSummer/akita_summer_component_library/static/css/main.5d82cc01.chunk.css.map",
+    "main.js.map": "/akitaSummer/akita_summer_component_library/main.264729f47435333a13b1.bundle.js.map",
+    "runtime~main.js": "/akitaSummer/akita_summer_component_library/runtime~main.264729f47435333a13b1.bundle.js",
+    "runtime~main.js.map": "/akitaSummer/akita_summer_component_library/runtime~main.264729f47435333a13b1.bundle.js.map",
+    "vendors~main.css": "/akitaSummer/akita_summer_component_library/static/css/vendors~main.f8f248a5.chunk.css",
+    "vendors~main.js": "/akitaSummer/akita_summer_component_library/vendors~main.264729f47435333a13b1.bundle.js",
+    "vendors~main.css.map": "/akitaSummer/akita_summer_component_library/static/css/vendors~main.f8f248a5.chunk.css.map",
+    "vendors~main.js.map": "/akitaSummer/akita_summer_component_library/vendors~main.264729f47435333a13b1.bundle.js.map",
+    "iframe.html": "/akitaSummer/akita_summer_component_library/iframe.html",
+    "precache-manifest.c22de00d3230da3bde8525497ded6b45.js": "/akitaSummer/akita_summer_component_library/precache-manifest.c22de00d3230da3bde8525497ded6b45.js",
+    "service-worker.js": "/akitaSummer/akita_summer_component_library/service-worker.js",
+    "vendors~main.264729f47435333a13b1.bundle.js.LICENSE.txt": "/akitaSummer/akita_summer_component_library/vendors~main.264729f47435333a13b1.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.264729f47435333a13b1.bundle.js",
+    "static/css/vendors~main.f8f248a5.chunk.css",
+    "vendors~main.264729f47435333a13b1.bundle.js",
+    "static/css/main.5d82cc01.chunk.css",
+    "main.264729f47435333a13b1.bundle.js"
+  ]
+}
