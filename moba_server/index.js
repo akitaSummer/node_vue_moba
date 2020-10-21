@@ -25,6 +25,7 @@ app.use('/limni', express.static(__dirname + '/limni'))
 app.use('/music', express.static(__dirname + '/music'))
 app.use('/todoapp', express.static(__dirname + '/todoapp'))
 app.use('/akita_summer_component_library', express.static(__dirname + '/akita_summer_component_library'))
+app.use('/cheese', express.static(__dirname + '/cheese'))
 
 
 // 导入路由
